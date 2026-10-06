@@ -22,9 +22,11 @@ getgenv().ProjectNearConfig = {
     
     -- Jnkie.com Key System Integration (Optional)
     Jnkie = {
-        Enabled = false, -- Set to true to verify keys using Jnkie.com API
-        ApiKey = "YOUR_JNKIE_API_KEY",
-        ServiceId = "YOUR_JNKIE_SERVICE_ID"
+        Enabled = false,
+                Type = "jnkie",
+                Service = "your-service", -- service name from your Junkie dashboard
+                Identifier = "your-identifier", -- user id from your dashboard
+                Provider = "Mixed", -- provider name from your Junkie dashboard
     },
     
     -- Discord Invite Link
